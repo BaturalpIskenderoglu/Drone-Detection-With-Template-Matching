@@ -6,6 +6,9 @@ Bu proje, bilgisayarlı görü dersi kapsamında **Şablon Eşleştirme (Templat
 
 ## Veri Seti
 
+**Kullanılan veri seti:**
+Drone Detection Dataset — Aatish Kumar Sahu. Roboflow Universe, 2025.
+
 Bu projede kullanılan veri setine aşağıdaki bağlantı üzerinden ulaşabilirsiniz:
 
 **Veri Seti Bağlantısı**:
