@@ -4,6 +4,13 @@ Bu proje, bilgisayarlı görü dersi kapsamında **Şablon Eşleştirme (Templat
 
 Şablon eşleştirme işlemi için OpenCV kütüphanesinin `matchTemplate()` fonksiyonu ve **TM_CCOEFF_NORMED** yöntemi kullanılmıştır. Bu yöntem, normalizasyon işlemi sayesinde farklı parlaklık seviyelerine sahip görüntülerde daha kararlı sonuçlar vermesi nedeniyle tercih edilmiştir. Eşleştirme sonucu **-1 ile 1** arasında değer almaktadır. **1'e yakın değerler** yüksek benzerliği, **0 civarındaki değerler** düşük ilişkiyi, negatif değerler ise negatif korelasyonu ifade etmektedir. Bu nedenle model, 1'e yakın eşleştirme skorlarını olası drone tespitleri olarak değerlendirmektedir.
 
+## Veri Seti
+
+Bu projede kullanılan veri setine aşağıdaki bağlantı üzerinden ulaşabilirsiniz:
+
+**Veri Seti Bağlantısı**:
+https://universe.roboflow.com/aatish-kumar-sahu-57emd/drone-detection-1ghph
+
 ## Görüntü Ön İşleme
 
 Model geliştirilmeden önce görüntülere aşağıdaki ön işlemler uygulanmıştır:
